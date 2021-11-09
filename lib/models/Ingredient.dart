@@ -3,6 +3,7 @@ class Ingredient {
   String name;
   double amount;
   String unit;
+  int test = 0;
 
   // Constructor
   Ingredient (this.name, this.amount, this.unit); // special Dart format
@@ -13,6 +14,7 @@ class Ingredient {
     this.name = name;
     this.amount = amount;
     this.unit = unit;
+    this.text = 1;
   } */
 
 
